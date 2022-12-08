@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get free consultant</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/index.css">
+    <style>
+        form{
+            padding-top:50px;
+            width: 60%;
+            height: 400px;
+            margin: 0 auto;
+            background-color: rgb(226, 226, 228);
+        }
+        label{
+            display: inline-block;
+            width: 150px;
+            padding: 10px;
+            word-wrap:wrap;
+            font-weight: bold;   
+        }
+
+        input{
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid black;
+            border-radius: 10px;
+            border-color: brown;
+        }
+        .question{
+          display: flex;
+          align-items: center;
+        }
+        textarea{
+            margin:10px;
+            border-radius:10px;
+            padding: 10px;
+            border-color: brown;
+        }
+        input[ type="submit"]{
+           margin: 10px;
+            padding: 10px;
+            width: 100px;
+            color: white;
+            background-color: rgb(137, 124, 149);
+        } 
+        input[ type="submit"]:hover{
+          color: crimson;
+          letter-spacing: 5px;
+          transition: all .5s ease-in-out;
+          cursor: progress;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- start header -->
+        <header>
+            <div class="logo">
+                <img src="assets/img/logo.png" alt="">
+
+            </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html"> Home</a></li>
+                        <li><a href="about.html"> About</a></li>
+                        <li><a href="service.html"> Services</a></li>
+                        <!-- <li><a href=""> Protfolio</a></li> -->
+                        <li><a href="photo.html"> Photo</a></li>
+                        <li><a href="contact.html"> Contact</a></li>
+                    </ul>
+                </nav>
+           
+            <div class=btn>
+                <a href="button.html">Get free consultant</a>
+            </div>
+        </header>
+        <!-- End header  -->
+        <!-- start main Area  -->
+        <main>
+            <aside>
+              <li><a href="https://facebook.com" target="_blank"> <i class="fa-brands fa-facebook"></i></a> </li>
+             <li><a href="https://whatsapp.com" target="_blank"><i class="fa-brands fa-square-whatsapp"></i></a></li>
+             <li><a href="https://skype.com" target="_blank"><i class="fa-brands fa-skype"></i></a></li>
+             <li><a href="https://instagram.com" target="_blank"><i class="fa-brands fa-square-instagram"></i></a></li>
+           <li> <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+            </aside>
+
+            <div class="content-area">
+                <form action="" method="post">
+                    <fieldset>
+                        <legend>What do you want to Know?</legend>
+                        <div>
+                        <label for="name"> Name:</label>
+                        <input type="text" placeholder="" id="name" name="name" required>
+                       </div>
+                        <div>
+                        <label for="name"> Email:</label>
+                        <input type="email" placeholder="Ex:abcd@gmail.com" id="email" name="email" required>
+                       </div>
+                        <div class="question">
+                        <label for="textarea"> What do you want to Know?</label>
+                        <textarea name="textarea"></textarea>
+                       </div>
+                        <div>
+                        <label for="submet"></label>
+                        <input type="submit" id="submet" value="Submit">
+                       </div>
+            
+                    </fieldset>
+                </form>
+
+            </div>
+            
+        </main>
+        <!-- End main Area  -->
+        <!-- start footer Area  -->
+        <footer>
+            <div class="search"> 
+                <i class="fa-solid fa-magnifying-glass"></i><input type="search" placeholder="Search..">
+            </div>
+            <div class="p1">
+                <p>Designing With Passion While <br> Exploring The World</p>
+            </div>
+
+            <div class="p2"><p> Any Type of Web Design <br> & Development</p></div>
+        </footer>
+        <!-- end footer Area  -->
+    </div>
+    
+</body>
+</html>
